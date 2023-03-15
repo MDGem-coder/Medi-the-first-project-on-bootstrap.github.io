@@ -1,0 +1,80 @@
+@import url(/css/style__header.css);
+.body {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+}
+.main__innovations {
+    background: #00868A;
+    margin:35px 0 0 0;
+}
+.main__span-innovations {
+    background: #4FBFA5;
+    padding: 9px 15px 10px 15px;
+    margin: 35px 0 0 0;
+}
+.main__text-innovations {
+    padding: 30px 0 25px 0;
+    margin: 0;
+    font-size: 30px;
+    color: #FFFFFF;
+    opacity: 0.34;
+}
+.main__btn-innovations {
+    background: #00868A;
+}
+.license__arrow-right {
+    background: none;
+    border: none;
+    padding: 0 0 45px 0;
+}
+.license__arrow-right img {
+    background: none;
+    border: 1px solid #FFFFFF;
+    padding: 20px 15px;
+    margin: 0 20px 0 0;
+}
+.license__imaage {
+    margin: 0 auto;
+}
+.main__progress {
+    margin: 35px 0 0 0;
+}
+.progress__list-numder {
+    list-style: none;
+    padding: 0;
+}
+.progress__item-number {
+    font-size: 48px;
+    padding: 20px 0;
+    gap: 0 20px;
+}
+.progress__item-number span:nth-child(2) {
+    font-size: 14px;
+    max-height: 42px;
+}
+.progress__item-number:nth-child(3) {
+    font-size: 96px;
+    color: #00868A;
+}
+.progress__numder {
+    opacity: 0.3;
+}
+@media (min-width:992px) {
+    .pregress__image {
+        margin-left: -130px;
+        z-index: -50;
+    }
+}
+@media (min-width:1200px) {
+    .main__span-innovations {
+        margin: 35px 0 0 40px;
+    }
+    .main__text-innovations {
+        padding: 30px 30px 25px 40px;
+    }
+    .license__arrow-right {
+        padding: 0 0 45px 40px;
+    }
+}

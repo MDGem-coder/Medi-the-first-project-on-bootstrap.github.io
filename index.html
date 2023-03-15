@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="body">
+    <div class="container-fluid justify-content-center p-0">
+        <header class="header">
+            <section class="header__top bg-white">
+                <div class="container header__container">
+                    <div class="row header__row align-items-center justify-content-lg-between justify-content-xl-start">
+                        <div class="col-12 col-xl-auto d-flex justify-content-center header__logo order-1 order-xl-1">
+                            <a href="#" class="header__logotip">
+                                <img src="/img/svg/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-auto col-xl-auto header__tel d-flex justify-content-center justify-content-md-start justify-content-lg-center order-4 order-xl-2">
+                            <a href="tel:+7 (123) 456 78 90" class="text-dark text-decoration-none text-nowrap">
+                                +7 (123) 456 78 90
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-auto col-xl-auto header__dropdown d-flex justify-content-center justify-content-md-end align-items-center order-5 order-xl-3">
+                            <div class="dropdown d-flex">
+                                <span class="header__dropdown-span text-nowrap">
+                                    Наши салоны
+                                </span>
+                                <button
+                                    class="btn btn-success heeader__btn-dropdown p-0 d-flex align-items-center justify-content-center"
+                                    type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="/img/svg/arrowbtn.svg" alt="arrowbtn">
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-auto col-xl-auto header__eyes d-flex justify-content-center justify-content-md-start header__version order-2 order-xl-4 text-nowrap">
+                            <a href="#" class="text-white text-decoration-none header__eye">
+                                <img src="/img/svg/eye.svg" alt="eye">
+                                Версия для слабовидящих
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-auto col-xl-auto d-flex justify-content-center justify-content-md-end header__network order-3 order-xl-5">
+                            <img class="header-network-item" src="/img/svg/vk.svg" alt="vk">
+                            <img class="header-network-item" src="/img/svg/youtube.svg" alt="youtube">
+                            <img class="header-network-item" src="/img/svg/facebook.svg" alt="facebook">
+                            <img class="header-network-item" src="/img/svg/instagram.svg" alt="instagram">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="header__banner">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center justify-content-xl-between">
+                        <div class="col-3 col-lg-9 col-xl-auto order-2 order-lg-1 header__menu">
+                            <nav class="navbar navbar-expand-lg navbar-light header__navbar">
+                                <div class="container-fluid justify-content-md-end  p-md-0 pt-md-4 justify-content-sm-end p-sm-0 pt-sm-3 justify-content-end p-2 header__container-menu">
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                        <div class="navbar-nav header__nav-nav">
+                                            <a class="nav-link text-nowrap text-white header__nav-link" href="#">Косметология</a>
+                                            <a class="nav-link text-nowrap text-white header__nav-link" href="#">Пластическая хирургия</a>
+                                            <a class="nav-link text-nowrap text-white header__nav-link" href="#">Стоматология</a>
+                                            <a class="nav-link text-nowrap text-white header__nav-link" href="#">Лазерная медицина</a>
+                                            <a class="nav-link text-nowrap text-white header__nav-link" href="#">Контакты</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-9 col-lg-3 col-xl-auto d-flex justify-content-md-start justify-content-lg-center justify-content-xl-end align-items-center order-1 order-lg-2 pt-md-4 justify-content-sm-start pt-sm-3 justify-content-start header__btn-record">
+                            <button type="button"
+                                class="btn btn-outline-success bg-white text-dark border-0 text-nowrap header__btns-record">
+                                Запись на прием
+                            </button>
+                        </div>
+                        <div class="col-12 col-xl-5 order-3 header__info p-0 pt-md-5 p-sm-4 p-xl-0">
+                            <h1 class="header__title text-white text-center text-xl-start p-lg-4 p-xl-0">
+                                Косметология
+                            </h1>
+                            <p class="header__text text-white ">
+                                Современный мир диктует новые каноны жизни:
+                                ухоженное лицо и тело, стройная, подтянутая фигура
+                                — сегодня это неотъемлемые черты привлекательной внешности,
+                                характеризующие человека благополучного и успешного.
+                            </p>
+                            <button type="button"
+                                class="btn d-flex btn-outline-success text-white text-uppercase border-0 text-nowrap header__btn-more">
+                                подробнее
+                            </button>
+                            <div class="header__arrow d-flex justify-content-end">
+                                <button class="header__arrow-left" type="submit">
+                                    <img src="/img/svg/arrow-left.svg" alt="left">
+                                </button>
+                                <button class="header__arrow-right" type="submit">
+                                    <img src="/img/svg/arrow-right.svg" alt="right">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-7 d-flex justify-content-lg-center justify-content-xxl-end order-4 header__banners">
+                            <img src="/img/banner.png" alt="banner" class="img-fluid">
+                        </div>
+                        <div class="col-12 order-5 d-flex justify-content-center header__services ">
+                            <ul class="nav flex-column flex-lg-row">
+                                <li class="nav-item header__item-additionally">
+                                    <a class="nav-link text-center text-white header__link-dop" href="#">Комплексные процедуры</a>
+                                </li>
+                                <li class="nav-item header__item-additionally">
+                                    <a class="nav-link text-center text-white header__link-dop" href="#">Центр обучения</a>
+                                </li>
+                                <li class="nav-item header__item-additionally">
+                                    <a class="nav-link text-center text-white header__link-dop" href="#">VIP клиентам</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main class="main">
+            <section class="main__license">
+                <div class="container">
+                    <div class="row align-items-xl-center">
+                        <div class="col-12 col-xl-5 main__innovations order-2 order-xl-1 p-xl-0">
+                            <span class="main__span-innovations d-inline-block text-white">
+                                Инновации
+                            </span>
+                            <p class="main__text-innovations text-center text-xl-start">
+                                Мы практикуем новый курс процедур аппаратной косметологии  
+                            </p>
+                            <div class="license__arrow d-flex main__btn-innovations">
+                                <button class="license__arrow-right text-white text-uppercase" type="submit">
+                                    <img src="/img/svg/arrow-right.svg" alt="right">
+                                    Подробнее
+                                </button>
+                            </div>
+                            <img src="/img/innovations.png" alt="innovations" class="img-fluid license__imaage d-block">
+                        </div>
+                        <div class="col-12 col-xl-7 main__progress order-1 order-xl-2">
+                            <div class="container p-0 d-lg-flex  justify-content-lg-center ps-xl-5">
+                                <div class="progress__number-text">
+                                    <ul class="progress__list-numder">
+                                        <li class="progress__item-number d-flex align-items-center">
+                                            <span class="d-block progress__numder">
+                                                78
+                                            </span>
+                                            <span class="d-block progress__numder" style="width: 170px;">Современных центра
+                                                в странах СНГ</span>
+                                        </li>
+                                        <li class="progress__item-number d-flex align-items-center">
+                                            <span class="d-block progress__numder">
+                                                78
+                                            </span>
+                                            <span class="d-block progress__numder" style="width: 170px;">Современных центра
+                                                в странах СНГ</span>
+                                        </li>
+                                        <li class="progress__item-number d-flex align-items-center">
+                                            <span class="d-block">
+                                                20
+                                            </span>
+                                            <span class="d-block text-dark" style="font-size: 18px;">
+                                                Уникальных патентов<br>
+                                                в области косметологии
+                                            </span>
+                                        </li>
+                                        <li class="progress__item-number d-flex align-items-center">
+                                            <span class="d-block progress__numder">
+                                                78
+                                            </span>
+                                            <span class="d-block progress__numder" style="width: 170px;">Современных центра
+                                                в странах СНГ</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pregress__image d-flex justify-content-center">
+                                    <img src="/img/certificate.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12"></div>
+                        <div class="col-12"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
